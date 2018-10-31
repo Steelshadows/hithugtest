@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<meta name="author" content="Brand v. Harn">
+		<meta name="" content="">
+		<meta charset="UTF-8">
+		<title>contactgegevens</title>
+
+	</head>
+	<body>
+		<header>
+			<h2>contact gegevens</h2>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">homepagina</a>
+				<a href="hobbies.html">hobbies</a>
+				<a href="gaming.html">games</a>
+				<a href="contact.html">contactgegevens</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<img width="30%" src="img/burgericon.png"></img>
+				</a>
+			</div>
+
+			<script>
+			function myFunction() {
+					var x = document.getElementById("myTopnav");
+					if (x.className === "topnav") {
+							x.className += " responsive";
+					} else {
+							x.className = "topnav";
+					}
+			}
+			</script>
+		</header>
+		<div class="nobordertext">
+			<p style="text-align: center;">Om contact op te nemen met DHR. de Meijer vul dit formulier in en er zal spoedig antwoord worden gegeven</p>
+		</div>
+		<div class="formulier">
+			<form action="">
+				<input required type="email" name="email" placeholder="E-mail">
+				<input type="text" name="subject" placeholder="subject"><br>
+				<textarea required name="message" placeholder="message"></textarea><br>
+				<input type="submit" value="send" onclick="alert('message sent')">
+	</div>
+
+</body>
+<html>

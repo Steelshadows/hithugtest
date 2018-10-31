@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<meta name="author" content="Brand v. Harn">
+<meta name="" content="">
+<meta charset="UTF-8">
+<title> Dante's homepage </title>
+
+
+</head>
+<body>
+	<header>
+		<h2>Dante's homepagina</h2>
+
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">homepagina</a>
+			<a href="hobbies.html">hobbies</a>
+			<a href="gaming.html">games</a>
+			<a href="contact.html">contactgegevens</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		 		<img width="100%" src="img/burgericon.png"></img>
+			</a>
+		</div>
+
+		<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+		</script>
+
+
+	</header>
+	<div class="container">
+		<div class="img" style="max-width: 320px; width:30%;">
+			<img src="img/owlinhat.png">
+		</div>
+		<div class="textbox" style="max-width: 685px; ">
+			<p>Hallo, dit is een site gemaakt voor Dante de Meijer
+			hij volgt een opleiding voor applicatie ontwikkelaar
+			dit is een Mbo niveau 4 opleiding<br>
+			hij heeft deze opleiding gekozen omdat hij er van houd om met computers bezig te zijn
+			na deze opleiding is hij van plan door te leren of direct aan het werk
+			</p>
+		</div>
+		<div class="img" style="float:right; max-width:620px;">
+			<img src="img/city.jpg" width="95%">
+		</div>
+		<div class="note" style="float:left;">
+			<p>i went to a general store but they wouldn't let me buy anything specific<br><br>~~Steven Wright</p>
+		</div>
+	</div>
+
+</body>
+<html>
